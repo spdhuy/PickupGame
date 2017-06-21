@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/flip.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/javacript.js"></script>
+    <script type="text/javascript" src="js/jquery.flip.min.js"></script>
+</head>
+<body>
+<div class="flip">
+    <div class="front">
+        <img src="./image/brazil.png" alt="" />
+    </div>
+    <div class="back">
+        <h3>Some Text in the Back!</h3>
+    </div>
+    <script>
+        $(function(){
+            $(".flip").flip({
+                trigger: 'hover'
+            });
+        });
+    </script>
+</div>
+</body>
+</html>
